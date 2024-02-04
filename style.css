@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+
+/* Common Elements */
+
+/* Intro Section */
+
+/* Feature Section */
+
+/* Pricing Section */
+
+/* Footer Section */
