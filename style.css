@@ -17,8 +17,76 @@ body {
 }
 
 /* Common Elements */
+.hidden {
+  display: none !important;
+}
 
 /* Intro Section */
+.page-header {
+  max-width: 100%;
+  height: 65rem;
+  border-radius: 0 0 0 10rem;
+  background-image: url(images/bg-pattern-intro-desktop.svg),
+    linear-gradient(135deg, rgb(255, 143, 112), rgb(255, 61, 84));
+  background-size: cover;
+}
+
+.header-nav {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  margin-bottom: 14rem;
+}
+
+.header-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4.4rem;
+  margin-right: 40rem;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.link-product {
+  font-size: 1.4rem;
+  border: none;
+  background: none;
+  color: #fff;
+}
+
+.dropdown {
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 0.4rem;
+  width: 11rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.hero-section {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* Feature Section */
 
