@@ -21,6 +21,14 @@ body {
   display: none !important;
 }
 
+.btn {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+}
+
 /* Intro Section */
 .page-header {
   max-width: 100%;
@@ -56,6 +64,14 @@ body {
   position: relative;
 }
 
+.nav-prod,
+.nav-comp,
+.nav-conn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .link-product {
   font-size: 1.4rem;
   border: none;
@@ -80,14 +96,62 @@ body {
   transform: translate(-50%, 0);
 }
 
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn--login {
+  font-family: "Ubuntu", sans-serif;
+  border: none;
+  background: none;
+  color: #fff;
+}
+
+.btn--sign-up {
+  background: #fff;
+  color: hsl(356, 100%, 66%);
+}
+
 .hero-section {
-  max-width: 80rem;
+  max-width: 90rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
 }
 
+.hero-header {
+  font-family: "Overpass", sans-serif;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+.hero-description {
+  font-family: "Overpass", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 4.4rem;
+}
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn-hero {
+}
+
+.btn-hero--start {
+  background: #fff;
+  color: hsl(356, 100%, 66%);
+}
+.btn-hero--learn {
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+}
 /* Feature Section */
 
 /* Pricing Section */
