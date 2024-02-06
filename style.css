@@ -25,7 +25,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   border: none;
-  padding: 1rem 2rem;
+  padding: 1.6rem 3.6rem;
   border-radius: 10rem;
 }
 
@@ -34,15 +34,19 @@ body {
   max-width: 100%;
   height: 65rem;
   border-radius: 0 0 0 10rem;
-  background-image: url(images/bg-pattern-intro-desktop.svg),
-    linear-gradient(135deg, rgb(255, 143, 112), rgb(255, 61, 84));
-  background-size: cover;
+  background-image: /*url(images/bg-pattern-intro-desktop.svg)*/ linear-gradient(
+    135deg,
+    rgb(255, 143, 112),
+    rgb(255, 61, 84)
+  );
+  position: relative;
+  overflow: hidden;
 }
 
 .header-nav {
   max-width: 120rem;
   margin: 0 auto;
-  padding-top: 6rem;
+  padding-top: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +77,7 @@ body {
 }
 
 .link-product {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   border: none;
   background: none;
   color: #fff;
@@ -100,6 +104,7 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
+  z-index: 100;
 }
 
 .btn--login {
@@ -107,11 +112,13 @@ body {
   border: none;
   background: none;
   color: #fff;
+  font-size: 1.8rem;
 }
 
 .btn--sign-up {
   background: #fff;
   color: hsl(356, 100%, 66%);
+  font-size: 1.8rem;
 }
 
 .hero-section {
@@ -125,22 +132,27 @@ body {
 
 .hero-header {
   font-family: "Overpass", sans-serif;
-  font-size: 6rem;
+  font-size: 6.4rem;
   margin-bottom: 3rem;
+  z-index: 100;
 }
 .hero-description {
   font-family: "Overpass", sans-serif;
   font-size: 2rem;
   font-weight: 300;
   margin-bottom: 4.4rem;
+  z-index: 100;
 }
 .hero-buttons {
   display: flex;
   align-items: center;
   gap: 2rem;
+  z-index: 100;
 }
 
 .btn-hero {
+  font-size: 1.8rem;
+  padding: 1.6rem 2.8rem;
 }
 
 .btn-hero--start {
@@ -152,8 +164,18 @@ body {
   background: none;
   color: #fff;
 }
-/* Feature Section */
 
-/* Pricing Section */
+.header-bg-img {
+  width: 233%;
+  position: absolute;
+  top: -233%;
+  left: -33%;
+  overflow: hidden;
+}
+/* --- Header Hover states*/
 
-/* Footer Section */
+/* FEATURE SECTION */
+
+/* PRICING SECTION */
+
+/* FOOTER SECTION */
