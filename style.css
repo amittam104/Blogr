@@ -41,6 +41,7 @@ body {
   );
   position: relative;
   overflow: hidden;
+  margin-bottom: 6rem;
 }
 
 .header-nav {
@@ -175,7 +176,46 @@ body {
 /* --- Header Hover states*/
 
 /* FEATURE SECTION */
+.intro-section {
+  max-width: 100vw;
+  margin-left: 18rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.h2-header {
+  font-size: 4rem;
+}
+.h2-header--intro {
+  align-self: center;
+  padding-top: 10rem;
+  padding-right: 18rem;
+  margin-bottom: -6rem;
+}
+.intro-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.intro-text {
+  width: 40%;
+}
+
+.sub-header {
+  font-size: 2.6rem;
+}
+.description {
+  font-size: 1.4rem;
+}
+
+.intro-img-box {
+  margin-top: -5rem;
+}
+
+.intro-img {
+  width: 155%;
+}
 /* PRICING SECTION */
 
 /* FOOTER SECTION */
