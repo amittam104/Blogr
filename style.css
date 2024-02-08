@@ -29,7 +29,7 @@ body {
   border-radius: 10rem;
 }
 
-/* Intro Section */
+/* Header Section */
 .page-header {
   max-width: 100%;
   height: 65rem;
@@ -175,13 +175,14 @@ body {
 }
 /* --- Header Hover states*/
 
-/* FEATURE SECTION */
+/* INTRO SECTION */
 .intro-section {
   max-width: 100vw;
   margin-left: 18rem;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  margin-bottom: 7rem;
 }
 .h2-header {
   font-size: 4rem;
@@ -229,6 +230,108 @@ body {
 .intro-img {
   width: 155%;
 }
+
+/* FEATURE SECTION */
+
+.feature-container {
+  background-image: linear-gradient(
+    45deg,
+    hsl(237, 17%, 21%),
+    hsl(237, 23%, 32%)
+  );
+  height: 42rem;
+  position: relative;
+  overflow: hidden;
+  z-index: -6;
+  border-radius: 0 10rem 0 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-img {
+  position: absolute;
+  width: 80%;
+  top: -252%;
+  left: -17%;
+  z-index: -5;
+}
+
+.feature-section {
+  position: relative;
+  margin-bottom: 18rem;
+}
+
+.feature-img {
+  z-index: 5;
+}
+.phones-img {
+  position: absolute;
+  width: 40%;
+  top: -21%;
+  left: 5%;
+}
+.feature-text {
+  transform: translate(55%, 0);
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.h2-header--feature {
+  color: #fff;
+}
+.feature--description {
+  width: 90%;
+  line-height: 2;
+  color: #fff;
+}
+
 /* PRICING SECTION */
+.pricing-section {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  margin-bottom: 18rem;
+}
+.pricing-images {
+  margin-left: -28rem;
+}
+.pricing-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.price-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  margin-bottom: 8rem;
+}
+
+.pricing--description {
+  font-size: 1.6rem;
+  width: 70%;
+}
 
 /* FOOTER SECTION */
+.footer {
+  background-color: hsl(240, 10%, 16%);
+  color: #fff;
+  border-radius: 0 10rem 0 0;
+  height: 38rem;
+  padding: 9rem 30rem 10rem 14rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.6rem;
+}
+.footer-links--product {
+}
