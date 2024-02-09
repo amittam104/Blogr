@@ -51,7 +51,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8rem;
+  gap: 7rem;
   margin-bottom: 14rem;
 }
 
@@ -79,9 +79,10 @@ body {
 
 .link-product {
   font-size: 1.6rem;
+  font-weight: 600;
   border: none;
   background: none;
-  color: #fff;
+  color: hsl(0, 0%, 92%);
 }
 
 .dropdown {
@@ -173,7 +174,31 @@ body {
   left: -33%;
   overflow: hidden;
 }
+
 /* --- Header Hover states*/
+.link-product:hover {
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn--login:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn--sign-up:hover,
+.btn-hero--start:hover {
+  background: hsl(355, 100%, 74%);
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-hero--learn:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: hsl(356, 100%, 66%);
+}
 
 /* INTRO SECTION */
 .intro-section {
@@ -339,4 +364,15 @@ body {
   font-weight: 700;
   margin-bottom: 2rem;
   color: #fff;
+}
+
+/* Footer Hover */
+.footer-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-link:first-child:hover {
+  text-decoration: none;
+  cursor: default;
 }
