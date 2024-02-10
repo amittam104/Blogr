@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Blogr Website Landing Page Header](image.png)
+![Blogr Website Landing Page Header](image-1.png)
 
 ### Links
 
