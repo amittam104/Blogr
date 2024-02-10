@@ -1,5 +1,7 @@
 # Blogr
 
+Blogr is a blogging website. This is the responsive landing page of Blogr which is build with Vanilla CSS and JS.
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -14,7 +16,7 @@
 
 ## Overview
 
-### The challenge
+### The challenge was
 
 Users should be able to:
 
@@ -23,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Blogr Website Landing Page Header](image.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/amittam104/Blogr)
+- Live Site URL: [Add live site URL here](https://amittam104.github.io/Blogr/)
 
 ## My process
 
@@ -42,11 +44,11 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I was able to brush up my vanilla CSS skills with this responsive design of Blogr.
 
 ## Author
 
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@attambulkar](https://twitter.com/attambulkar)
 
 #### Note
 
