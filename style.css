@@ -77,6 +77,10 @@ body {
   position: relative;
 }
 
+.icon-arrow-dark {
+  display: none;
+}
+
 .nav-prod,
 .nav-comp,
 .nav-conn {
@@ -402,7 +406,8 @@ body {
 @media (max-width: 375px) {
   .page-header {
     max-width: 100%;
-    height: 65rem;
+    height: inherit;
+    padding-bottom: 8rem;
     border-radius: 0 0 0 10rem;
     margin-bottom: 6rem;
   }
@@ -410,7 +415,8 @@ body {
   .header-nav {
     display: flex;
     flex-direction: column;
-    margin-bottom: 12rem;
+    margin-bottom: 8rem;
+    gap: 4rem;
     position: relative;
   }
 
@@ -433,16 +439,17 @@ body {
     padding: 2.8rem;
     border-radius: 0.8rem;
 
-    position: absolute;
-    top: 140%;
-    left: 50%;
-    transform: translate(-50%, 0);
+    /* position: absolute; */
+    top: 0%;
+    left: 0%;
+    transform: translate(0, 0);
 
     background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 
     margin: 0;
     margin-bottom: 0;
-    z-index: 222;
+    z-index: 1000;
     display: none;
   }
 
@@ -450,15 +457,58 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 0;
+    gap: 1.4rem;
     padding-bottom: 2.8rem;
     margin-bottom: 3.2rem;
     border-bottom: 0.5px solid hsl(240, 2%, 79%);
+  }
+
+  .icon-arrow--open {
+    display: none;
+  }
+
+  .icon-arrow-dark {
+    display: block;
   }
 
   .link-product {
     font-size: 1.6rem;
     font-weight: 600;
     color: hsl(208, 49%, 24%);
+  }
+
+  .link-product:hover {
+    text-decoration: none;
+    color: hsla(208, 49%, 24%, 0.7);
+  }
+
+  .dropdown {
+    background-color: hsla(240, 3%, 79%, 0.384);
+    color: hsla(208, 49%, 24%, 0.7);
+    padding: 3rem;
+    gap: 2rem;
+    border-radius: 0.6rem;
+    width: 28rem;
+    box-shadow: none;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: static;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+  }
+
+  .dropdown-option {
+    font-size: 1.7rem;
+  }
+
+  .nav-prod,
+  .nav-comp,
+  .nav-conn {
+    margin-bottom: 2rem;
   }
 
   .nav-buttons {
