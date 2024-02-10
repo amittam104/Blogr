@@ -338,6 +338,11 @@ body {
 .pricing-images {
   margin-left: -28rem;
 }
+
+.laptop-mob-img {
+  display: none;
+}
+
 .pricing-text {
   display: flex;
   flex-direction: column;
@@ -541,7 +546,7 @@ body {
     max-width: 100vw;
     margin-left: 0;
     overflow: hidden;
-    margin-bottom: 7rem;
+    margin-bottom: 15rem;
   }
 
   .h2-header--intro {
@@ -583,29 +588,120 @@ body {
     display: block;
   }
   /* FEATURE Section */
+  .feature-section {
+    margin-bottom: 8rem;
+  }
+
   .feature-container {
+    height: 70rem;
     display: flex;
     flex-direction: column;
   }
 
+  .circle-img {
+    position: absolute;
+    width: 165%;
+    top: -135%;
+    left: -32%;
+    z-index: -5;
+  }
+
+  .phones-img {
+    position: absolute;
+    width: 100%;
+    top: -25%;
+    left: 0;
+  }
+
+  .feature-text {
+    margin-top: 16rem;
+    transform: translate(0, 0);
+    width: 88%;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .h2-header--feature {
+    line-height: 1.3;
+  }
+
+  /* PRICING Section */
+
   .pricing-section {
     display: flex;
+    align-items: center;
     flex-direction: column;
+    overflow: hidden;
+    gap: 2.8rem;
+    margin-bottom: 8rem;
   }
 
   .pricing-images {
     margin-left: 0;
+    margin: 0 auto;
   }
 
   .laptop-img {
-    width: 100%;
-    height: auto;
+    display: none;
   }
 
-  .footer {
+  .laptop-mob-img {
+    display: inline-block;
+    width: 130%;
+  }
+
+  .pricing-text {
     display: flex;
     flex-direction: column;
-    height: 80rem;
-    padding: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 6rem;
+  }
+
+  .price-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-bottom: 0;
+  }
+
+  .pricing--description {
+    font-size: 1.6rem;
+    width: 84%;
+  }
+
+  /* FOOTER Section */
+
+  .footer {
+    height: 100rem;
+    padding: 8rem 10rem 4rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+  }
+
+  .logo-footer {
+    margin-bottom: 2rem;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    font-size: 1.8rem;
+    color: hsl(240, 2%, 79%);
+  }
+
+  .footer-link:first-child {
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #fff;
   }
 }
