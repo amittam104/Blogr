@@ -385,4 +385,52 @@ body {
     border-radius: 0 0 0 10rem;
     margin-bottom: 6rem;
   }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+    background-color: #fff;
+    color: hsl(237, 17%, 21%);
+
+    margin: 2rem auto;
+    padding-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .header-nav-links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-conn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
